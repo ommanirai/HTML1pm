@@ -3,11 +3,11 @@ comment:
 HTML => hyper text markup language
 tag: <html>demo tag in html</html>
 types of element in html:
-1. inline element: takes only the required space eg. span, b, del, i
+1. inline element: takes only the required space eg. span, b, del, i, u, sup, sub, abbr
 2. block element: takes full width of the screen eg. p, h1, h2, h3, h4, h5, h6, div, pre
 
 types of tag:
-1) container tag: eg. p, h1, h2, h3, h5,h4, h6, span, del, i
+1) container tag: eg. p, h1, h2, h3, h5,h4, h6, span, del, i, u, sub, sup, abbr, marquee
 2) empty tag: br
 -->
 <html>
@@ -20,7 +20,7 @@ types of tag:
     <pre>Lorem             ipsum dolor
          sit amet consectetur adipisicing elit.
           Impedit, possimus.</pre>
-    <h1>Heading first</h1>
+    <h1 title="heading first">Heading first</h1>
     <h2>Heading second</h2>
     <h3>Heading third</h3>
     <h4>Heading fourth</h4>
@@ -31,9 +31,16 @@ types of tag:
     <span>span1</span>
     <br>
     <span>span2</span>
-    <b>Bold text</b>
+    <b title="bold text">Bold text</b>
     <i>italic text</i>
     <del>deleted text</del>
+    <u>underline text</u>
+    <p>H<sub>2</sub>o</p>
+    <p>a <sup>2</sup> + 2ab + b <sup>2</sup></p>
+    <abbr title="world health organization">WHO</abbr>
+    <!-- attribute:value -->
+    <!-- behaviour: alternate direction: default(left), right, up, down -->
+    <marquee height="200px" behavior="alternate" direction="down">moving text</marquee>
 
 </body>
 
