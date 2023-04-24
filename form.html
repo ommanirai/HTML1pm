@@ -8,17 +8,77 @@
 </head>
 <body>
     <form>
-        <!-- type: text, password, button, submit -->
-        <label for="password">Username:</label>
-        <input type="text" id="username">
+        <!-- type: text, password,date,number, button, submit -->
+        <h2>Register Here</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username here">
         <br><br>
 
-        <label for="username">Password:</label>
-        <input type="password" id="password">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email here">
         <br><br>
+
+        <label for="address">Address</label>
+        <input type="text" id="address" placeholder="Enter your address here">
+        <br><br>
+
+        <label for="phone">Phone</label>
+        <input type="number" id="phone" placeholder="Enter Your phone number here">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password here">
+        <br><br>
+
+        <label for="cpassword">Confirm Password</label>
+        <input type="password" id="cpassword" placeholder="enter your Confirm password here">
+        <br><br>
+
+        <label for="dob">D.O.B</label>
+        <input type="date" id="dob" >
+        <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" >
+        <br><br>
+
+        <label for="">Country</label>
+        <select name="" id="">
+            <option value="">Select Your country here</option>
+            <option value="">Nepal</option>
+            <option value="">India</option>
+            <option value="">China</option>
+            <option value="">Japan</option>
+            <option value="">Korea</option>
+            <option value="">USA</option>
+            <option value="">UK</option>
+        </select>
+        <br><br>
+
+        <label for="">Gender</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <input type="radio" id="others" name="gender">
+        <label for="others">Others</label>
+
+        <br><br>
+
+
+
+
+
+
+
+
 
         <input type="submit">
-        <input type="button" value="Logout">
+        <!-- <input type="button" value="Logout">
+        <button>submit</button> -->
+        <input type="reset">
 
     </form>
 </body>
